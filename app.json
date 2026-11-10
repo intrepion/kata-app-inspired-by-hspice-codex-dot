@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "kind": "app",
+  "title": "Kata Voltbench",
+  "repository": "kata-app-inspired-by-hspice-codex-dot",
+  "section": "Kata Tool Shed",
+  "category": "Electronics",
+  "tagline": "Small circuits. Clear insights.",
+  "description": "Explore ideal linear circuits with SPICE-style netlists, DC operating points, source sweeps, AC magnitude and phase, and transient waveforms. An independent educational workbench inspired by HSPICE.",
+  "entryPoint": "index.html",
+  "status": "published",
+  "features": [
+    "Five editable example circuits",
+    "Ideal R, C, L, V and I devices",
+    "DC bias and source sweeps",
+    "AC magnitude and phase",
+    "Backward-Euler transients",
+    "Node connectivity map",
+    "Local autosave and JSON project import/export",
+    "SPICE-style text import/export",
+    "CSV export"
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/desktop.jpg",
+      "width": 1133,
+      "height": 1005,
+      "alt": "Kata Voltbench RC low-pass filter with transient input and capacitor output.",
+      "caption": "RC low-pass filter with transient input and capacitor output.",
+      "capturedAt": "2026-11-10T16:20:09.796705+00:00",
+      "sha256": "000a216c2622b9ab921c2bc15fca964244b001860916dbb8419d27291a7366b9",
+      "source": "http://127.0.0.1:5193/",
+      "captureMethod": "Chrome via CUA, genuine unedited full-page capture; viewport 1148\u00d7623 CSS pixels (default). Timestamp records saved capture file."
+    },
+    {
+      "src": "screenshots/narrow.jpg",
+      "width": 375,
+      "height": 1805,
+      "alt": "Kata Voltbench RLC resonance AC response in the narrow layout; input trace hidden.",
+      "caption": "RLC resonance AC response in the narrow layout; input trace hidden.",
+      "capturedAt": "2026-11-10T16:20:18.031309+00:00",
+      "sha256": "560c583510489fa1af2f8956ff4a0a50052cde8c70c42e0429bb49b6c7421407",
+      "source": "http://127.0.0.1:5193/",
+      "captureMethod": "Chrome via CUA, genuine unedited full-page capture; viewport 390\u00d7844 CSS pixels. Timestamp records saved capture file."
+    }
+  ],
+  "inspiration": {
+    "name": "HSPICE",
+    "url": "https://www.synopsys.com/implementation-and-signoff/ams-simulation/primesim-hspice.html"
+  },
+  "license": "MIT",
+  "repositoryUrl": "https://github.com/intrepion/kata-app-inspired-by-hspice-codex-dot",
+  "appUrl": "https://intrepion.github.io/kata-app-inspired-by-hspice-codex-dot/"
+}

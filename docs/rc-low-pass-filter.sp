@@ -1,0 +1,10 @@
+RC low-pass filter
+* A 1 kHz pulse through a 1 kohm / 100 nF filter
+V1 in 0 DC 0 AC 1 PULSE(0 5 0 1u 1u 500u 1m)
+R1 in out 1k
+C1 out 0 100n
+.op
+.tran 2u 3m
+.ac dec 40 10 1meg
+.dc V1 0 5 0.1
+.end
